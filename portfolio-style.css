@@ -1,26 +1,53 @@
-/* FONTS: */
+/* SMALLEST SCREENS: */	
 
-	/* Fonts from Google's font API. */
-	@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic,700italic");
+	/* FONTS: */
 
-/* BODY: */
+		/* Fonts from Google's font API. */
+		@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic,700italic");
 
-	body {
-		background-color: #000000;
-		background-image: url("pics/pw_maze_black.png");
-		font-family: "Ubuntu Mono", monospace;
-		font-weight: 400;
+	/* BODY: */
+
+		body {
+			background-color: #000000;
+			background-image: url("pics/pw_maze_black.png");
+			font-family: "Ubuntu Mono", monospace;
+		}
+
+		h1, h2, h3 {
+			font-family: "Ubuntu Mono", monospace;
+		}
+
+		#content {
+			background-color: #FFFFFF;
+			box-shadow: 2px 2px 4px #000000;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 10px;
+			width: 80%;
+		}
+
+/* SMALL SCREENS: */
+
+	@media screen and (min-width: 768px) {
+
 	}
 
-	h1, h2, h3 {
-		font-family: "Ubuntu Mono", monospace;
-		font-weight: 700;
+/* MEDIUM SCREENS: */
+	
+	@media screen and (min-width: 992px) {
+
+		#content {
+			padding: 20px;
+		}
+
 	}
 
-	#content {
-		background-color: #FFFFFF;
-		box-shadow: 2px 2px 4px #000000;
-		margin-left: auto;
-		margin-right: auto;
-		width: 80%;
+/* LARGE SCREENS: */
+
+	@media screen and (min-width: 1200px) {
+
+		#content {
+			padding: 30px;
+		}
+
 	}
