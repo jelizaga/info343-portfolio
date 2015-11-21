@@ -5,6 +5,7 @@
 		/* Fonts from Google's font API. */
 		@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic,700italic");
 
+
 	/* BODY: */
 
 		body {
@@ -19,14 +20,21 @@
 			text-align: center;
 		}
 
-		#content {
-			background-color: #FFFFFF;
+		#main {
+			background-color: #3A90DE;
 			box-shadow: 2px 2px 4px #000000;
 			margin-left: auto;
 			margin-right: auto;
 			margin-top: 30px;
-			padding: 10px;
+			padding: 20px;
 			width: 80%;
+		}
+
+		#content {
+			background-color: #FFFFFF;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 20px;
 		}
 
 	/* HEADER: */
@@ -94,7 +102,11 @@
 	@media screen and (min-width: 1200px) {
 
 		/* BODY: */
-		
+
+			#main {
+				padding: 30px;
+			}
+
 			#content {
 				padding: 30px;
 			}

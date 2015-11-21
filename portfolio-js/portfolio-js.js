@@ -36,21 +36,21 @@ portfolioWindow.config(function($stateProvider) {
 
 // Each portfolio-page has its own controller with its own $scope.
 portfolioWindow.controller("homeController", function($scope){
-	$scope.test = "HOME";
+	$scope.headline = "Home";
 })
 
 portfolioWindow.controller("projectsController", function($scope){
-	$scope.test = "PROJECTS";
+	$scope.headline = "Projects";
 })
 
 portfolioWindow.controller("websitesController", function($scope){
-	$scope.test = "WEBSITES";
+	$scope.headline = "Websites";
 })
 
 portfolioWindow.controller("moviesController", function($scope){
-	$scope.test = "MOVIES";
+	$scope.headline = "Movies";
 })
 
 portfolioWindow.controller("aboutController", function($scope){
-	$scope.test = "ABOUT";
+	$scope.headline = "About";
 })

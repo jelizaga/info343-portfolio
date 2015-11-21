@@ -31,48 +31,57 @@
 
 	<body>
 
-		<div id="content">
+		<div id="main">
 
-			<!-- Header includes a title and the navigation menu. -->
-			<header>
+			<div id="content">
+
+				<!-- Header includes a title and the navigation menu. -->
+				<header>
+				
+					<h1>
+						Joel Elizaga's Portfolio
+					</h1>
+
+					<ul id="navigation">
+						<li>
+							<a ui-sref="home">Home</a>
+						</li>
+						<li>
+							<a ui-sref="websites">Web Sites</a>
+						</li>
+						<li>
+							<a ui-sref="projects">Projects</a>
+						</li>
+						<li>
+							<a ui-sref="movies">Movies</a>
+						</li>
+						<li>
+							<a ui-sref="about">About</a>
+						</li>
+					</ul>
+
+				</header>
+
+				<!-- The "portfolio-window," where the contents of my portfolio will be displayed
+				while the index remains static. When using a bootstrap container this thing'll
+				refuse to center. -->
+				<div id="portfolio">
+
+	      			<div ui-view></div>
+
+	    		</div>
+
+	    		<!-- Simple footer. -->
+	    		<footer>
+
+	    			<text>
+	    				Joel Elizaga, 2015.
+	    			</text>
+
+	    		</footer>
+
+			</div>
 			
-				<h1>
-					Joel Elizaga's Portfolio
-				</h1>
-
-				<ul id="navigation">
-					<li>
-						<a ui-sref="home">Home</a>
-					</li>
-					<li>
-						<a ui-sref="websites">Web Sites</a>
-					</li>
-					<li>
-						<a ui-sref="projects">Projects</a>
-					</li>
-					<li>
-						<a ui-sref="movies">Movies</a>
-					</li>
-					<li>
-						<a ui-sref="about">About</a>
-					</li>
-				</ul>
-			</header>
-
-			<!-- The "portfolio-window," where the contents of my portfolio will be displayed
-			while the index remains static. When using a bootstrap container this thing'll
-			refuse to center. -->
-			<div id="portfolio">
-      			<div ui-view></div>
-    		</div>
-
-    		<!-- Simple footer. -->
-    		<footer>
-    			<text>
-    				Joel Elizaga, 2015.
-    			</text>
-    		</footer>
-
 		</div>
 
 	</body>
