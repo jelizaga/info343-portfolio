@@ -21,7 +21,7 @@
 		}
 
 		#main {
-			background-color: #3A90DE;
+			background-color: #44A5FF;
 			box-shadow: 2px 2px 4px #000000;
 			margin-left: auto;
 			margin-right: auto;
@@ -32,8 +32,7 @@
 
 		#content {
 			background-color: #FFFFFF;
-			margin-left: auto;
-			margin-right: auto;
+			margin: 0px;
 			padding: 20px;
 		}
 
@@ -91,8 +90,12 @@
 
 		/* BODY: */
 
+			#main {
+				padding: 30px;
+			}
+
 			#content {
-				padding: 20px;
+				padding: 30px;
 			}
 
 	}
@@ -102,13 +105,5 @@
 	@media screen and (min-width: 1200px) {
 
 		/* BODY: */
-
-			#main {
-				padding: 30px;
-			}
-
-			#content {
-				padding: 30px;
-			}
 
 	}
