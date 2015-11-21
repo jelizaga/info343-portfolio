@@ -125,11 +125,17 @@
 	@media screen and (min-width: 600px) {
 
 		/* IMAGES: */
+
 		.widescreen-screenshot {
 			height: 221px;
 			width: 400px;
 			margin-top: 20px;
 			margin-bottom: 20px;
+		}
+
+		.fullscreen-screenshot {
+			height: 297px;
+			width: 400px;
 		}
 
 	}
@@ -142,6 +148,11 @@
 
 		.widescreen-screenshot {
 			height: 287px;
+			width: 520px;
+		}
+
+		.fullscreen-screenshot {
+			height: 386px;
 			width: 520px;
 		}
 
@@ -170,7 +181,8 @@
 			}
 
 			.fullscreen-screenshot {
-
+				height: 483px;
+				width: 650px;
 			}
 
 	}
@@ -187,7 +199,8 @@
 			}
 
 			.fullscreen-screenshot {
-
+				height: 535px;
+				width: 720px;
 			}
 
 	}
