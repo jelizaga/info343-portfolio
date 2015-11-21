@@ -1,7 +1,7 @@
 // Initializing portfolioWindow app with ui-route.
 var portfolioWindow = angular.module("portfolioWindow", ["ui.router"]);
 
-/*
+
 // Configuring portfolioWindow app.
 portfolioWindow.config(function($stateProvider) {
 
@@ -54,4 +54,3 @@ portfolioWindow.controller("moviesController", function($scope){
 portfolioWindow.controller("aboutController", function($scope){
 	$scope.test = "ABOUT";
 })
-*/
