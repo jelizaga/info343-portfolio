@@ -52,6 +52,12 @@
 			margin-right: auto;
 		}
 
+	/* FOOTER: */
+
+		footer {
+			text-align: center;
+		}
+
 /* SMALL SCREENS: */
 
 	@media screen and (min-width: 768px) {
