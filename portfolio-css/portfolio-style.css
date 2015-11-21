@@ -24,6 +24,11 @@
 			text-align: center;
 		}
 
+		img {
+			margin-left: auto;
+			margin-right: auto;
+		}
+
 		#main {
 			background-color: #44A5FF;
 			box-shadow: 2px 2px 4px #000000;
@@ -64,6 +69,17 @@
 			margin-right: auto;
 		}
 
+	/* IMAGES: */
+
+		.widescreen-screenshot {
+			height:
+			width: ;
+		}
+
+		.fullscreen-screenshot {
+
+		}
+
 	/* FOOTER: */
 
 		footer {
@@ -86,6 +102,17 @@
 				display: inline;
 			}
 
+		/* IMAGES: */
+
+			.widescreen-screenshot {
+				height: 166px;
+				width: 300px;
+			}
+
+			.fullscreen-screenshot {
+
+			}
+
 	}
 
 /* MEDIUM SCREENS: */
@@ -102,6 +129,17 @@
 				padding: 30px;
 			}
 
+		/* IMAGES: */
+
+			.widescreen-screenshot {
+				height: 276px;
+				width: 500px;
+			}
+
+			.fullscreen-screenshot {
+
+			}
+
 	}
 
 /* LARGE SCREENS: */
@@ -109,5 +147,16 @@
 	@media screen and (min-width: 1200px) {
 
 		/* BODY: */
+
+		/* IMAGES: */
+
+			.widescreen-screenshot {
+				height: 398px;
+				width: 720px;
+			}
+
+			.fullscreen-screenshot {
+
+			}
 
 	}
