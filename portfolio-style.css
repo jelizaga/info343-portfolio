@@ -9,12 +9,14 @@
 
 		body {
 			background-color: #000000;
-			background-image: url("pics/pw_maze_black.png");
+			background-image: url("../pics/pw_maze_black.png");
 			font-family: "Ubuntu Mono", monospace;
 		}
 
 		h1, h2, h3 {
 			font-family: "Ubuntu Mono", monospace;
+			font-weight: 700;
+			text-align: center;
 		}
 
 		#content {
