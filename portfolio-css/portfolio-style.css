@@ -36,6 +36,7 @@
 			margin-left: auto;
 			margin-right: auto;
 			margin-top: 30px;
+			margin-bottom: 30px;
 			padding: 20px;
 			width: 80%;
 		}
@@ -177,8 +178,6 @@
 /* LARGE SCREENS: */
 
 	@media screen and (min-width: 1200px) {
-
-		/* BODY: */
 
 		/* IMAGES: */
 
