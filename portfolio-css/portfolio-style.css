@@ -89,12 +89,8 @@
 	/* FOOTER: */
 
 		footer {
-			font-size: 1em;
+			font-size: 14px;
 			text-align: center;
-		}
-
-		.small {
-			font-size: 1em;
 		}
 
 /* SMALL SCREENS: */
