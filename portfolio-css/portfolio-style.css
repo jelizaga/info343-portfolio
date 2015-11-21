@@ -24,7 +24,7 @@
 			box-shadow: 2px 2px 4px #000000;
 			margin-left: auto;
 			margin-right: auto;
-			margin-top: 50px;
+			margin-top: 30px;
 			padding: 10px;
 			width: 80%;
 		}
@@ -63,9 +63,17 @@
 
 	@media screen and (min-width: 500px) {
 
-		#navigation li {
-			display: inline;
-		}
+		/* BODY: */
+
+			#content {
+				margin-top: 50px;
+			}
+
+		/* NAVIGATION BAR: */
+
+			#navigation li {
+				display: inline;
+			}
 
 	}
 
@@ -73,9 +81,11 @@
 	
 	@media screen and (min-width: 992px) {
 
-		#content {
-			padding: 20px;
-		}
+		/* BODY: */
+
+			#content {
+				padding: 20px;
+			}
 
 	}
 
@@ -83,8 +93,10 @@
 
 	@media screen and (min-width: 1200px) {
 
-		#content {
-			padding: 30px;
-		}
+		/* BODY: */
+		
+			#content {
+				padding: 30px;
+			}
 
 	}
