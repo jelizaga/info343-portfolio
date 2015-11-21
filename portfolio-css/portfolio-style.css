@@ -105,6 +105,7 @@
 		/* IMAGES: */
 
 			.widescreen-screenshot {
+				display: inherit;
 				height: 166px;
 				width: 300px;
 			}
