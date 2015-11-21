@@ -54,7 +54,7 @@
 
 	/* NAVIGATION BAR: */
 
-		#navigation ul {
+		#navigation {
 			padding: 0px;
 		}
 
@@ -119,6 +119,34 @@
 
 	}
 
+/* KIND OF SMALL SCREENS: */
+
+	@media screen and (min-width: 600px) {
+
+		/* IMAGES: */
+		.widescreen-screenshot {
+			height: 221px;
+			width: 400px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+
+	}
+
+/* ALMOST MEDIUM SCREENS: */
+
+	@media screen and (min-width: 750px) {
+		
+		/* IMAGES: */
+
+		.widescreen-screenshot {
+			height: 287px;
+			width: 520px;
+		}
+
+	}
+
+
 /* MEDIUM SCREENS: */
 	
 	@media screen and (min-width: 992px) {
@@ -138,8 +166,6 @@
 			.widescreen-screenshot {
 				height: 359px;
 				width: 650px;
-				margin-top: 20px;
-				margin-bottom: 20px;
 			}
 
 			.fullscreen-screenshot {
@@ -159,8 +185,6 @@
 			.widescreen-screenshot {
 				height: 398px;
 				width: 720px;
-				margin-top: 20px;
-				margin-bottom: 20px;
 			}
 
 			.fullscreen-screenshot {
