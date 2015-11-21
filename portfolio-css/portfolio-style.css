@@ -9,7 +9,7 @@
 
 		body {
 			background-color: #000000;
-			background-image: url("../pics/pw_maze_black.png");
+			background-image: url("../pics/blue-bg.gif");
 			font-family: "Ubuntu Mono", monospace;
 		}
 
@@ -36,17 +36,22 @@
 
 	/* NAVIGATION BAR: */
 
-		#navigation li {
-			display: inline;
+		#navigation ul {
+			padding: 0px;
 		}
 
-		#navigation a {
+		#navigation li {
+			list-style-type: none;
 			padding: 2em;
 		}
 
 /* SMALL SCREENS: */
 
 	@media screen and (min-width: 768px) {
+
+		#navigation li {
+			display: inline;
+		}
 
 	}
 
