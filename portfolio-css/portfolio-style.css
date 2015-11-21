@@ -82,6 +82,10 @@
 			display: none;
 		}
 
+		#portrait {
+			display: none;
+		}
+
 	/* FOOTER: */
 
 		footer {
