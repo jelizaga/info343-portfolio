@@ -25,7 +25,6 @@
 		}
 
 		img {
-			box-shadow: 0px 0px 4px #000000;
 			display: inherit;
 			margin-left: auto;
 			margin-right: auto;
@@ -106,6 +105,7 @@
 		/* IMAGES: */
 
 			.widescreen-screenshot {
+				box-shadow: 0px 0px 4px #000000;
 				display: inherit;
 				height: 166px;
 				width: 300px;
@@ -138,8 +138,8 @@
 			.widescreen-screenshot {
 				height: 276px;
 				width: 500px;
-				margin-top: 10px;
-				margin-bottom: 10px;
+				margin-top: 20px;
+				margin-bottom: 20px;
 			}
 
 			.fullscreen-screenshot {
@@ -159,8 +159,8 @@
 			.widescreen-screenshot {
 				height: 398px;
 				width: 720px;
-				margin-top: 10px;
-				margin-bottom: 10px;
+				margin-top: 20px;
+				margin-bottom: 20px;
 			}
 
 			.fullscreen-screenshot {
