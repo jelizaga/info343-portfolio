@@ -28,6 +28,11 @@
 			width: 80%;
 		}
 
+	/* HEADER */
+	header {
+		text-align: center;
+	}
+
 /* SMALL SCREENS: */
 
 	@media screen and (min-width: 768px) {

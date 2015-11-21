@@ -1,5 +1,5 @@
 // Initializing portfolioWindow app with ui-route.
-angular.module("portfolioWindow", ["ui.router"])
+var portfolioWindow = angular.module("portfolioWindow", ["ui.router"]);
 
 // Configuring portfolioWindow app.
 portfolioWindow.config(function($stateProvider) {
@@ -34,22 +34,22 @@ portfolioWindow.config(function($stateProvider) {
 })
 
 // Each portfolio-page has its own controller with its own $scope.
-.controller("homeController", function($scope){
+portfolioWindow.controller("homeController", function($scope){
 	$scope.test = "HOME";
 })
 
-.controller("projectsController", function($scope){
+portfolioWindow.controller("projectsController", function($scope){
 	$scope.test = "PROJECTS";
 })
 
-.controller("websitesController", function($scope){
+portfolioWindow.controller("websitesController", function($scope){
 	$scope.test = "WEBSITES";
 })
 
-.controller("moviesController", function($scope){
+portfolioWindow.controller("moviesController", function($scope){
 	$scope.test = "MOVIES";
 })
 
-.controller("aboutController", function($scope){
+portfolioWindow.controller("aboutController", function($scope){
 	$scope.test = "ABOUT";
 })
