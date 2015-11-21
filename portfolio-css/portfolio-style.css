@@ -115,7 +115,12 @@
 			}
 
 			.fullscreen-screenshot {
-
+				box-shadow: 0px 0px 4px #000000;
+				display: inherit;
+				height: 223px;
+				width: 300px;
+				margin-top: 10px;
+				margin-bottom: 10px;
 			}
 
 	}
@@ -136,6 +141,8 @@
 		.fullscreen-screenshot {
 			height: 297px;
 			width: 400px;
+			margin-top: 20px;
+			margin-bottom: 20px;
 		}
 
 	}
