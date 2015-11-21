@@ -16,6 +16,7 @@
 			background-color: #000000;
 			background-image: url("../pics/blue-bg.gif");
 			font-family: "Ubuntu Mono", monospace;
+			font-size: 2em;
 		}
 
 		h1, h2, h3 {
@@ -84,6 +85,7 @@
 	/* FOOTER: */
 
 		footer {
+			font-size: 1em;
 			text-align: center;
 		}
 
