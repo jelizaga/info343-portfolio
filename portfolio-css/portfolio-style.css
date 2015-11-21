@@ -25,6 +25,7 @@
 		}
 
 		img {
+			display: inherit;
 			margin-left: auto;
 			margin-right: auto;
 		}
@@ -72,12 +73,11 @@
 	/* IMAGES: */
 
 		.widescreen-screenshot {
-			height:
-			width: ;
+			display: none;
 		}
 
 		.fullscreen-screenshot {
-
+			display: none;
 		}
 
 	/* FOOTER: */
