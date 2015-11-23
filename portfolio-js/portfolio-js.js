@@ -29,25 +29,29 @@ portfolioWindow.config(function($stateProvider) {
 
 })
 
-// Each portfolio-page has its own controller with its own $scope.
+// projectsController
 portfolioWindow.controller("projectsController", function($scope){
 	$scope.headline = "Projects";
 })
 
+// websitesController
 portfolioWindow.controller("websitesController", function($scope){
 
 	$scope.headline = "Websites";
 
-	$scope.getWebsites = function() {
-		alert("Getting websites.");
-	}
+	$http.get("portfolio-data/websites-data.json").success(function (data) {
+		$scope.data = data;
+		alert(data);
+	});
 
 })
 
+// moviesController
 portfolioWindow.controller("moviesController", function($scope){
 	$scope.headline = "Movies";
 })
 
+// aboutController
 portfolioWindow.controller("aboutController", function($scope){
 	$scope.headline = "About";
 })
