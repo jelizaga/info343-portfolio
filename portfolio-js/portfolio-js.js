@@ -36,7 +36,13 @@ portfolioWindow.controller("projectsController", function($scope){
 
 // websitesController
 portfolioWindow.controller("websitesController", function($scope){
+
 	$scope.headline = "Websites";
+
+	$http.get("portfolio-data/websites-data.json").success(function (data) {
+		$scope.data = data;
+	});
+	
 })
 
 // moviesController
