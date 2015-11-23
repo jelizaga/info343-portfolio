@@ -40,6 +40,15 @@
 <img src="website-pics/ischool.png" class="fullscreen-screenshot" alt="iSchool Application Portfolio" />
 
 <!-- ANGULAR -->
+<div ng-repeat="website in websites">
+	<h3>
+		{{project}}
+	</h3>
+	<img src="{{img}}" class="{{imgtype}}" alt="{{project}}" />
+	<p>
+		{{desc}}
+	</p>
+</div>
 
 
 <!--

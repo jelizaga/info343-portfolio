@@ -42,7 +42,7 @@ portfolioWindow.controller("websitesController", function($scope, $http) {
 	$scope.headline = "Websites";
 
 	$http.get("portfolio-data/websites-data.json").success(function (data) {
-		$scope.data = data;
+		$scope.websites = data;
 	});
 
 })
