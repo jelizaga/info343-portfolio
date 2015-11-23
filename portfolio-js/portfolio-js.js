@@ -37,7 +37,7 @@ portfolioWindow.controller("projectsController", function($scope){
 })
 
 // websitesController
-portfolioWindow.controller("websitesController", function($scope){
+portfolioWindow.controller("websitesController", function($scope, $http) {
 
 	$scope.headline = "Websites";
 
