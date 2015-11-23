@@ -1,5 +1,7 @@
 // Initializing portfolioWindow app with ui-router.
 var portfolioWindow = angular.module("portfolioWindow", ["ui.router"]);
+// Empty data variable.
+var data;
 
 
 // Configuring portfolioWindow app.
@@ -42,7 +44,7 @@ portfolioWindow.controller("websitesController", function($scope){
 	$http.get("portfolio-data/websites-data.json").success(function (data) {
 		$scope.data = data;
 	});
-	
+
 })
 
 // moviesController
