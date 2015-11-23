@@ -62,7 +62,7 @@
 
 		#navigation li {
 			list-style-type: none;
-			padding: 2em;
+			padding: 1em;
 		}
 
 	/* PORTFOLIO: */
@@ -107,6 +107,7 @@
 
 			#navigation li {
 				display: inline;
+				padding: 2em;
 			}
 
 		/* IMAGES: */
