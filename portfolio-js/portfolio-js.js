@@ -38,7 +38,9 @@ portfolioWindow.controller("websitesController", function($scope){
 
 	$scope.headline = "Websites";
 
-	document.onload
+	$scope.getWebsites = function() {
+		alert("Getting websites.");
+	}
 
 })
 
