@@ -5,7 +5,9 @@
 
 <div ng-repeat="website in websites">
 	<h3>
-		{{website.project}}
+		<a href="{{website.url}}">
+			{{website.project}}
+		</a>
 	</h3>
 	<img src="{{website.img}}" class="{{website.imgtype}}" alt="{{website.project}}" />
 	<p>
