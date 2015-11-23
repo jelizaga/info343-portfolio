@@ -1,8 +1,5 @@
 // Initializing portfolioWindow app with ui-router.
 var portfolioWindow = angular.module("portfolioWindow", ["ui.router"]);
-// Empty data variable.
-var data;
-
 
 // Configuring portfolioWindow app.
 portfolioWindow.config(function($stateProvider) {

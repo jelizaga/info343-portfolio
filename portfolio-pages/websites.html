@@ -42,11 +42,11 @@
 <!-- ANGULAR -->
 <div ng-repeat="website in websites">
 	<h3>
-		{{project}}
+		{{website.project}}
 	</h3>
-	<img src="{{img}}" class="{{imgtype}}" alt="{{project}}" />
+	<img src="{{website.img}}" class="{{website.imgtype}}" alt="{{website.project}}" />
 	<p>
-		{{desc}}
+		{{website.desc}}
 	</p>
 </div>
 
