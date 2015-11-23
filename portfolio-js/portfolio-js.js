@@ -30,7 +30,9 @@ portfolioWindow.config(function($stateProvider) {
 
 // projectsController
 portfolioWindow.controller("projectsController", function($scope){
+
 	$scope.headline = "Projects";
+
 })
 
 // websitesController
@@ -46,10 +48,14 @@ portfolioWindow.controller("websitesController", function($scope, $http) {
 
 // moviesController
 portfolioWindow.controller("moviesController", function($scope){
+
 	$scope.headline = "Movies";
+
 })
 
 // aboutController
 portfolioWindow.controller("aboutController", function($scope){
+
 	$scope.headline = "About";
+	
 })
